@@ -1,0 +1,148 @@
+body,header{
+    margin: 0%;
+    background-color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(41, 104, 41);
+}
+h3{
+    color: rgb(14, 32, 14);
+    text-align: center;
+}
+
+.cabeçalho{ 
+    float: left;
+    width: 100%;
+    height: 18%;
+    position: fixed;
+
+}
+li{
+    float: right;
+    list-style: none;
+    margin: 2%;
+    margin-top: 0%;
+     font-size: 115% ;
+     padding-top: 5%;
+}
+
+li:hover{
+    background-color: rgb(41, 109, 41);
+    background-size: cover;
+    height: 50%;
+}
+
+#logo{ 
+    height: 100%;
+    width: 21%;   
+}
+
+#painel{
+    background-image: url(img/8.jpg);
+    width: 100%;
+    height: 55%;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30%;
+    font-size: 150%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Produtos{
+    background-color: rgb(255, 255, 255);
+    height: 103%;
+    width: 100%;
+    text-align: center;
+    padding-top: 2%;
+    background-size: cover;
+
+}
+
+.Tipos{
+   float: left;
+   width: 28%;
+   margin: 2%;  
+   text-align: center;  
+   padding-top: 1%;
+   font-size: 107%;
+   padding-bottom: 5%;
+}
+
+
+.Tiposimg{
+    height: 35%;
+    width: 93%;
+}
+
+
+
+.Botão{
+    height: 2%;
+    width: 2%;
+    border: rgb(173, 180, 173) solid 1px;
+    border-radius: 20%;
+}
+
+.Material{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    background-size: cover;
+}
+
+.Quem_somos{
+   background-size: cover;
+    height: 80%;
+    width: 100%;
+    text-align: justify;
+    padding-top: 2%;
+    font-size: 108%;
+
+}
+
+.Quem{
+    padding-top: 5%;
+    width:34%;
+    margin-left:5%;
+    float: left;
+    border-radius: 5%;
+    text-align: justify;
+   
+}
+
+.somos{
+    padding-top: 6%;
+}
+
+.Saiba{
+    background-image: url(img/site\ 5.jpg);
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    text-align: justify;
+    padding-top: 30%;
+    font-size: 150%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+footer{
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255) 2px solid;
+    text-align: center;
+}
+
+
+@media all and (max-width:768px){
+    #cabeçalho{
+            Display:block;
+            width:90%;
+            padding: 0;
+            margin: 10px auto;
+            float: none;
+
+
+}
